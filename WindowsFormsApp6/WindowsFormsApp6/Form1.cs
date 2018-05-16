@@ -25,7 +25,7 @@ namespace WindowsFormsApp6
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            foreach(Control a in this.Controls)
+            foreach(Control a in this.Controls) //Story ve Taskların konumu değişince rengi değiştirme.
             {
                 if (a is Panel && a.Width == 137)
                 {
